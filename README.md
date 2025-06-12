@@ -4,5 +4,5 @@ Instead of creating individual `.venv` directory (some with size > 5 Gigabyte) i
 ```Bash
 /mnt/e/zhaohuiwang/dev/venvs/uv-venvs/pytorch/.venv/bin/python
 ``` 
-Note: My working directory is `/mnt/e/zhaohuiwang/dev/` on my WSL system. I follow these steps to select `pytorch` interpreter,
+Note: My working directory is `/mnt/e/zhaohuiwang/dev/` on my WSL system. I follow these steps to select `pytorch` interpreter,<p>
 VSCode > Ctrl+Shift+P to open the command palette > Python:Select Interpreter > Enter interpreter path ..
