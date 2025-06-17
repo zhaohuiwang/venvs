@@ -1,0 +1,23 @@
+[project]
+name = "bayesian"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Zhaohui Wang",email = "ezhwang@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pymc (>=5.20.1,<6.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "bambi (>=0.15.0,<0.16.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "daft-pgm (>=0.1.4,<0.2.0)",
+    "watermark (>=2.5.0,<3.0.0)",
+    "pooch (>=1.8.2,<2.0.0)",
+    "statsmodels (>=0.14.4,<0.15.0)",
+    "optax (>=0.2.4,<0.3.0)",
+    "numpyro (>=0.18.0,<0.19.0)",
+    "jax (>=0.6.1,<0.7.0)",
+    "causalpy>=0.4.2",
+]
